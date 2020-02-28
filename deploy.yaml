@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: queue
-        image: ${REPOSITORY_TAG}
+        image: <<YOUR_DOCKERHUB_USERNAME>>/<<SERVICE_NAME>>:<<BUILD_ID>>
         imagePullPolicy: Never
 ---
 apiVersion: v1
